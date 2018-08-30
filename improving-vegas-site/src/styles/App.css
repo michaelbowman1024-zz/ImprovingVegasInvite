@@ -1,0 +1,27 @@
+.App {
+    text-align: left;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  .popup {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: -1em;
+    display: block;
+    text-align: center;
+    padding: 0 3em 0.5em 3em;
+    background-color: #FFFFFF;
+  }
+
+  .popup-image {
+      width: 100px;
+      height: 100px;
+  }
