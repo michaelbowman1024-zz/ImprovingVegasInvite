@@ -11,7 +11,7 @@ class Aside extends Component {
 
     render() {
         return(
-            <div>
+            <div className="Aside">
                 ASIDE INFORMATION!! Like Contact and such :P
             </div>
         )
