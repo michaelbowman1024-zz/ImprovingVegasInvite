@@ -53,3 +53,10 @@
     height: 100%;
     object-fit: fill;
 }
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}

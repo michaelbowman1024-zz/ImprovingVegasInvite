@@ -5,6 +5,7 @@ import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
 
 import Main from './Pages/Main.jsx';
 import Aside from './Pages/Aside.jsx';
+import Contact from './Pages/Contact.jsx';
 
 import './styles/App.css';
 
@@ -51,6 +52,13 @@ class App extends Component {
             </Col>
             <Col sm={4}>
               <Aside />
+            </Col>
+          </Row>
+          <Row>
+            <Col sm={8}>
+              <Contact />
+            </Col>
+            <Col sm={4}>
             </Col>
           </Row>
         </Grid>
